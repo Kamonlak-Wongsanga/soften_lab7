@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1 (Python 3.12.4 on win32)" generated="2025-01-09T22:30:41.985980" rpa="false" schemaversion="5">
+<suite id="s1" name="lab7 TestAutomate002 4" source="c:\Users\fernk\OneDrive\เอกสาร\SoftEn\WebDemo\lab7_002\lab7_TestAutomate002_4.robot">
+<test id="s1-t1" name="Record Success" line="12">
+<kw name="Input Firstname" owner="resource">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-01-09T22:30:42.181701" level="INFO">Typing text 'Somsong' into text field 'firstname'.</msg>
+<msg time="2025-01-09T22:30:42.183703" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg time="2025-01-09T22:30:42.183703" level="FAIL">No browser is open.</msg>
+<arg>firstname</arg>
+<arg>${FIRST NAME}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="FAIL" start="2025-01-09T22:30:42.181701" elapsed="0.005000">No browser is open.</status>
+</kw>
+<arg>${FIRST NAME}</arg>
+<status status="FAIL" start="2025-01-09T22:30:42.180712" elapsed="0.006987">No browser is open.</status>
+</kw>
+<kw name="Input Lastname" owner="resource">
+<arg>${LAST NAME}</arg>
+<status status="NOT RUN" start="2025-01-09T22:30:42.187699" elapsed="0.000000"/>
+</kw>
+<kw name="Input destination" owner="resource">
+<arg>${DESTINATION}</arg>
+<status status="NOT RUN" start="2025-01-09T22:30:42.188699" elapsed="0.000000"/>
+</kw>
+<kw name="Input contactperson" owner="resource">
+<arg>${CONTACT PERSON}</arg>
+<status status="NOT RUN" start="2025-01-09T22:30:42.189699" elapsed="0.000000"/>
+</kw>
+<kw name="Input relationship" owner="resource">
+<arg>${RELATIONSHIP}</arg>
+<status status="NOT RUN" start="2025-01-09T22:30:42.189699" elapsed="0.000000"/>
+</kw>
+<kw name="Input email" owner="resource">
+<arg>${EMAIL}</arg>
+<status status="NOT RUN" start="2025-01-09T22:30:42.189699" elapsed="0.000000"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2025-01-09T22:30:42.190699" elapsed="0.000000"/>
+</kw>
+<kw name="Submit Credentials" owner="resource">
+<status status="NOT RUN" start="2025-01-09T22:30:42.190699" elapsed="0.000000"/>
+</kw>
+<kw name="Form Page Should Be Open" owner="resource">
+<status status="NOT RUN" start="2025-01-09T22:30:42.191701" elapsed="0.000000"/>
+</kw>
+<kw name="text should be Please enter a phone number" owner="resource">
+<status status="NOT RUN" start="2025-01-09T22:30:42.191701" elapsed="0.000000"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-01-09T22:30:42.192700" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2025-01-09T22:30:42.179709" elapsed="0.012991">No browser is open.</status>
+</test>
+<doc>A test suite with a single test for valid login.
+
+This test has a workflow that is created using keywords in
+the imported resource file.</doc>
+<status status="FAIL" start="2025-01-09T22:30:41.990979" elapsed="0.203722"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="lab7 TestAutomate002 4">lab7 TestAutomate002 4</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
